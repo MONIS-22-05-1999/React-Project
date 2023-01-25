@@ -1,0 +1,304 @@
+.banner-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .dtp-view-img {
+        display: none;
+    }
+
+    .banner-img {
+        .carousel-inner {
+            border-radius: 0;
+
+        }
+
+        img {
+            // height: 100%;
+            // height: 80vh;
+        }
+    }
+
+    .banner-form-part {
+        position: relative;
+        background: #fff;
+        height: 100%;
+        z-index: 1;
+        padding: 10px;
+
+        .offer_list ul {
+            margin-bottom: 12px;
+            padding: 0 1em;
+            list-style: none;
+
+            li:before {
+                content: "";
+                border-color: transparent #010716;
+                border-style: solid;
+                border-width: 0.35em 0 0.35em 0.45em;
+                display: block;
+                height: 0;
+                width: 0;
+                left: -1em;
+                top: 17px;
+                position: relative;
+            }
+        }
+    }
+
+    .form-offer {
+        max-width: 320px;
+        text-align: center;
+
+        b {
+            display: block;
+        }
+    }
+
+    .form-heading {
+        margin-bottom: 20px;
+
+        h1 {
+            font-size: 24px;
+            text-align: center;
+        }
+    }
+
+    .form-container {
+        border-top: none;
+        width: 320px;
+
+        h4 {
+            text-align: center;
+            padding: 15px 10px;
+            font-size: 20px;
+            border-radius: $Primary-border $Primary-border 0 0;
+            background-color: $Primary-color;
+            color: $secondary-color;
+            margin-bottom: 0;
+        }
+
+        h1 {
+            font-size: 18px;
+            padding: 8px;
+            margin-bottom: 0;
+            line-height: 30px;
+        }
+        .offer_list{
+            background: #dee2e6;
+            padding: 1px 0;
+            border-radius:  $Primary-border ;
+            ul{
+                padding: 0 15px;
+
+                li{
+                    padding-left: 15px; 
+                    margin-bottom: -5px;
+                }
+            }
+        }
+    }
+
+    .terms {
+        color: #000;
+    }
+
+    .form-heading span {
+        display: block;
+        font-size: 1.2rem;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+    .country-code select,
+    .name-cont .form-control,
+    .m-number-cont .form-control,
+    .register-submit {
+        height: calc(2.3em + .75rem + 0px);
+        width: 100%;
+        font-size: 0.875em;
+        border-radius: $Primary-border;
+    }
+
+    input {
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .form-control {
+        border: 1px solid #949494;
+    }
+
+    .country-code select {
+        padding: 0 10px;
+        background: #fff;
+    }
+
+    .term-condition {
+        font-size: 0.875em;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .country-code,
+    .name-cont,
+    .m-number-cont {
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .flex-content{
+        display: flex;
+        .country-code{
+            width: 42%;
+            margin-right: 10px;
+        }
+        .m-number-cont{
+            width: 70%;
+        }
+    }
+
+    .offer-banner {
+        z-index: 9;
+        width: 350px;
+        padding: 0;
+        box-shadow: 0 5px 5px -5px #333;
+        background: #e86964;
+        color: #fff;
+        border-radius: $Primary-border $Primary-border 0 0;
+        padding: 20px;
+
+        .icon-check-1:before {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+    }
+
+    .op-bk {
+        display: inline-block;
+        background: #d7251d;
+        padding: 5px 10px;
+        margin: 0px 0 10px -20px;
+    }
+
+    .stra {
+        background: linear-gradient(45deg, black, #d7251d);
+        padding: 10px;
+        margin-bottom: 10px;
+
+        span {
+            display: block;
+        }
+    }
+
+    .rera-no {
+        padding: 12px 20px;
+        margin-top: 15px;
+        background: #dee2e6;
+        text-align: center;
+        border-radius: $Primary-border;
+    }
+
+    .icon-check-1 {
+        font-size: 40px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .banner-content li {
+        &::before {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background: #d7251d;
+            margin-right: 10px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        letter-spacing: 0.5px;
+
+        b {
+            font-size: 18px;
+        }
+
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            //   width: calc(100% - 60px);
+        }
+    }
+
+    select {
+        border: 1px solid #949494;
+        color: #495057;
+    }
+
+    .modal-header h4 {
+        font-size: 16px;
+        padding-right: 16px;
+    }
+
+    .banner_offer {
+        position: relative;
+        background: #fff;
+        height: auto;
+        padding: 10px;
+        border-radius: $Primary-border;
+        box-shadow: 0px 5px 7px #888888;
+        margin: 30px 0px 0px 0px;
+
+        .more-info{
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .playAndGrow {
+            font-size: 22px;
+            font-weight: 800;
+        }
+
+        .playGrowTitle {
+            font-size: 18px;
+            padding: 10px 25px;
+            font-weight: bold;
+        }
+
+        .orderlist {
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius:$Primary-border;
+
+            li {
+                font-size: 14px;
+
+                .dot {
+                    height: 12px;
+                    width: 12px;
+                    background-color: $Primary-color;
+                    border-radius: 50%;
+                    display: inline-block;
+                }
+            }
+        }
+
+        .offerHeading {
+            font-weight: normal;
+            font-size: 18px;
+            margin-bottom: 0;
+            padding: 10px;
+            font-weight: 600;
+        }
+
+        .offer-enq-btn {
+            .yt-icon2 {
+                width: 22%;
+            }
+        }
+    }
+}

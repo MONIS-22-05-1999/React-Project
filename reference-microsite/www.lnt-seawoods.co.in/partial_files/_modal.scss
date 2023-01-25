@@ -1,0 +1,84 @@
+/*  onoad popup css start */
+.modal {
+    .modal-title {
+        font-size: 18px;
+        letter-spacing: 0.5px;
+        padding-right: 20px;
+    }
+
+    .modal-header {
+        border-radius: $Primary-border $Primary-border 0 0;
+    }
+
+    .modal-content {
+        border-radius: $Primary-border;
+    }
+
+    .popup-img {
+        margin: 0 auto 10px;
+        overflow: hidden;
+
+        img {
+            height: 100%;
+            width: 100%;
+        }
+    }
+
+    .modal-dialog {
+        max-width: 380px;
+    }
+
+    .btn-close {
+        position: absolute;
+        right: 7px;
+        top: 7px;
+        background: #000;
+        opacity: 1;
+        color: #fff;
+        border-radius: 0;
+        line-height: 16px;
+        border-radius: 0 $Primary-border 0 0;
+
+        &:hover {
+            color: #fff;
+            opacity: 0.90;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+    }
+
+    .country-code select,
+    .name-cont .form-control,
+    .m-number-cont .form-control {
+        border: 1px solid #949494;
+        margin-bottom: 15px;
+        position: relative;
+    }
+
+    .country-code select,
+    .country-code select,
+    .name-cont .form-control,
+    .m-number-cont .form-control {
+        height: calc(2.3em + .75rem + 0px);
+        width: 100%;
+        font-size: 0.875em;
+        border-radius:$Primary-border;
+        color: #495057;
+    }
+
+    input{
+        &:focus{
+            box-shadow: none;
+        }
+    }
+
+    select{
+        padding-left: 10px;
+    }
+
+    .register-submit {
+        width: 100%;
+    }
+}

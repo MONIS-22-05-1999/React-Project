@@ -1,0 +1,85 @@
+.price-section {
+    h3 {
+        font-size: 18px;
+        margin-top: 30px;
+        border-bottom: 1px solid #c1e8d1;
+
+        span {
+            padding: 10px 20px;
+            background: #0ca74a;
+            border-radius: 20px 20px 0px 0px;
+            color: #fff;
+        }
+    }
+
+    .price-card-listing {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 20px 0 10px;
+        justify-content: center;
+    }
+
+    .typology {
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 24px;
+        color: $Primary-color;
+        margin-bottom: 20px;
+
+        span {
+            display: block;
+        }
+
+        b {
+            color: red;
+            font-weight: 400;
+            animation-duration: 3s;
+            font-size: 14px;
+        }
+    }
+
+    .other-project {
+        margin-top: 30px;
+    }
+
+    .pst {
+        color:$Primary-color;
+    }
+
+    .price-item {
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        transition: .5s all;
+        margin-bottom: 16px;
+        border-radius: $Primary-border;
+        background: #fff;
+        box-shadow: 0px 0px 5px #a6a8ab;
+
+        // &:hover {
+        //     font-weight: 500;
+        //     background: #5d5e5e;
+        //     color: #fff;
+        //     box-shadow: 0 7px 16px 0 rgba(50, 50, 50, 0.199);
+        //     cursor: pointer;
+        //     .typology{
+        //         color:#fff;
+        //     }
+        // }
+    }
+
+    .area,
+    .pricing {
+        margin-top: 20px;
+
+        span {
+            display: block;
+            font-weight: 600;
+            font-size: 20px;
+        }
+    }
+
+    .btm-pr-btn {
+        margin-top: 10px
+    }
+}

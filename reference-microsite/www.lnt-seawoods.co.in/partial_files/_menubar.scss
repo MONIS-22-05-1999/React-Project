@@ -1,0 +1,189 @@
+.top-bar {
+    background: #ffffffd9;
+    box-shadow: 5px 2px 6px 0 #0000001f, inset 0 -1px 0 0 #dadce0;
+    position: fixed;
+    width: 100%;
+
+    .nav-link {
+        color: #333;
+        font-weight: 700;
+        padding: 15px 20px;
+    }
+
+    .header-first-row {
+        padding: 10px 0px;
+        background: #fff;
+
+        .Logo {
+            display: inline-block;
+            // padding: 5px;
+            width: 215px;
+        }
+
+        .ph-no {
+            border: 1px solid #40ca3c;
+            padding: 5px 10px;
+            font-size: 14px;
+            border-radius: $Primary-border;
+            margin-left: 5px;
+            display: inline-block;
+            background-color:#40ca3c;
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .phone_no {
+            color: #fff;
+        }
+
+        .navbar.navbar-expand-md.navbar-light {
+            padding: 0 10px;
+            background: #fff;
+        }
+
+        .navbar-nav li {
+            .phone_url {
+                font-size: 16px;
+            }
+        }
+
+        .navbar-expand-lg {
+            padding: 0 10px;
+
+            .navbar-nav {
+                .nav-link {
+                    padding-right: .4rem;
+                    padding-left: .4rem;
+                }
+            }
+        }
+
+        .navbar-light {
+            .navbar-nav {
+
+                .active>.nav-link,
+                .nav-link.active,
+                .nav-link.show,
+                .show>.nav-link {
+                    color: #666;
+                }
+
+                .nav-link {
+                    color: #666;
+                    font-weight: 500;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                }
+
+                .nav-link:focus,
+                .nav-link:hover {
+                    color: #000;
+                    transition: 0.5s ease all;
+                }
+            }
+
+            .navbar-toggler {
+                border: none;
+                padding: 0px;
+
+                .navbar-toggler-icon {
+                    // background-image: none;
+                    line-height: 1.25em;
+                    color: #000;
+                }
+
+                &:focus {
+                    box-shadow: none;
+                }
+            }
+        }
+
+        .nav-item {
+            transition: all ease 0.3s;
+        }
+
+        .icon-menu {
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        .mb-number {
+            margin-top: 7px;
+            font-size: 0.875em;
+        }
+
+        .brochure {
+            .broucher-link {
+                padding: 0;
+            }
+            cursor: pointer;
+            display: flex;
+            padding: 15px 1px;
+
+            .icon-download {
+                font-size: 18px;
+                color: #000;
+            }
+        }
+    }
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+.animated.infinite {
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes slideInDown {
+    0% {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    80% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+@keyframes slideInDown {
+    0% {
+        -webkit-transform: translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+        visibility: visible;
+    }
+
+    80% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+
+    100% {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.slideInDown {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+}
